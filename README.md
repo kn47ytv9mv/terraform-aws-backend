@@ -1,4 +1,4 @@
-# terraform-aws
+# terraform-aws-backend
 
 Self-bootstrapping root configuration. One `terraform apply` creates its own
 S3 state backend and migrates into it — no manual backend setup, no prior
@@ -10,8 +10,8 @@ additional resources you add to `resources.tf`.
 ## Usage
 
 ```sh
-git clone https://github.com/kn47ytv9mv/terraform-aws.git
-cd terraform-aws
+git clone https://github.com/kn47ytv9mv/terraform-aws-backend.git
+cd terraform-aws-backend
 terraform init
 terraform apply
 ```
